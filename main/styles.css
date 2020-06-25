@@ -1,0 +1,189 @@
+/* HOMEPAGE */
+.packages {
+    position: static;
+    height: 610px;
+    color: white;
+}
+
+.jumbotron {
+    background-image: url(../assets/bg1.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+.jm-ctn {
+    padding-top: 10%;
+}
+
+#promo {
+    height: 660px;
+    text-align: center;
+    color: white;
+}
+
+#promo p {
+    padding-top: 20%;
+    font-size: 250%;
+}
+.green {
+    color: green;
+}
+
+.parallax {
+    background-image: url(../assets/bg2.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#k4 {
+    text-align: center;
+}
+.gallery {
+    height: 100%;
+}
+
+.pictures {
+    background-color: black;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pictures img {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul {
+    list-style: none;
+    float: right;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.rights a, .rights p {
+    margin-left: 20px;
+}
+
+footer {
+    width: 100%;
+    padding: 10% 5%;
+    background-color: white;
+}
+
+footer ul, .right {
+    line-height: 80px;
+    display: inline-block;
+}
+
+/* LOGIN-SIGNUP */
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html #LR, #LR {
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+html #LR .container{
+height: 100%;
+align-content: center;
+}
+
+html #LR .card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+html #LR .social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+html #LR .social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+html #LR .card-header h3{
+color: white;
+}
+
+html #LR .social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+html #LR .input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+html #LR input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+html #LR .remember{
+color: white;
+}
+
+html #LR .remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+html #LR .login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+html #LR .login_btn:hover{
+color: black;
+background-color: white;
+}
+
+html #LR .links{
+color: white;
+}
+
+html #LR .links a{
+margin-left: 4px;
+}
